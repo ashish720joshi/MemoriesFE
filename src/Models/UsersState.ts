@@ -4,12 +4,12 @@ export interface UserState {
     error: string;
 }
 
-interface Users {
-    id: number;
+export interface Users {
+    id?: number;
     name: string;
-    username: string;
+    username?: string;
     email: string;
-    address: Address;
+    address?: Address;
 }
 
 interface Address {

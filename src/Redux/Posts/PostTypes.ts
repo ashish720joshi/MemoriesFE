@@ -1,3 +1,11 @@
 export const Fetch_Posts = 'Fetch Posts';
 export const Fetch_Posts_Success = 'Fetch Posts Success';
 export const Fetch_Posts_Failure = 'Fetch Posts Failure';
+export const Add_Post='Add Post';
+export const Add_Post_Success='Add Post Success';
+export const Add_Post_Failure='Add Post Failure';
+export const Like_Post='Like Post';
+export const Like_Post_Success='Like Post Success';
+export const Like_Post_Failure='Like Post Failure';
+export const Get_Likes="Get Likes";
+export const Fetch_Comments='Fetch Comments';

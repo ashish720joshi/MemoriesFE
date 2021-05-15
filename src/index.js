@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './Redux/Store';
-import Main from './Components/Main';
+import Main from './Main';
 
 
 ReactDOM.render(

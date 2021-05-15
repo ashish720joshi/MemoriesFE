@@ -1,13 +1,17 @@
 export interface PostState {
-    users: Posts[],
+    users: Post[],
     loading: boolean;
     error: string;
 }
 
-interface Posts {
+export interface Post {
     userId: number;
-    id: number;
-    title: string;
-    body: string;
+    postId?: number;
+    postName: string;
+    post: any;
+    type_:string;
+    likes?:number;
+    metaCreatedAt?:Date;
+    activityId?:number;
 }
 

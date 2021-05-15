@@ -1,0 +1,30 @@
+
+
+.Options{
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+@media(max-width:425px)
+{
+.UserStories{
+max-width: 100%;
+flex-basis: 100%;
+
+border: 1px solid black;
+}
+
+
+}
+
+@media(min-width:426px)
+{
+.UserStories{
+max-width: 16.666667%;
+flex-basis: 16.666667%;
+border: 1px solid black;
+}
+
+}
